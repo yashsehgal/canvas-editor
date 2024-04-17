@@ -48,7 +48,7 @@ function FileNameManager() {
         {isFileRenaming ? (
           <Input
             size="fit-content"
-            className="=fileName-manager-input h-fit"
+            className="fileName-manager-input"
             value={newFileName}
             autoFocus
             onChange={(e) => setNewFileName(e.currentTarget.value)}
